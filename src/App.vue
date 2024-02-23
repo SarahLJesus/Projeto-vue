@@ -6,6 +6,7 @@ const contador = ref(0)
 function decrementar() {
     contador.value--
 }
+
 </script>
 
 <template>
@@ -14,4 +15,11 @@ function decrementar() {
 <p>Valor do contador: {{ contador }}</p>
 </template>
 
-<style scoped></style>
+<style scoped>
+button {
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border: 0;
+}
+</style>
