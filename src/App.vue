@@ -4,7 +4,7 @@ import { ref } from 'vue'
 const contador = ref(0)
 
 function decrementar() {
-    contador.value--
+ if (contador.value > 0) {contador.value--}
 }
 
 </script>
